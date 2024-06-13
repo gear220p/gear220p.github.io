@@ -1,0 +1,45 @@
+/*------Menu bonito-----*/
+.nav{
+    position: absolute;
+    top:100px;
+    left:-100%;
+    width:100%;
+    transition:all 0.4s;
+}
+.menu{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.menu__link{
+    display:block;
+    padding: 15px;
+    background-color: darkgreen;"
+    text-decoration: none;
+    color:white;
+}
+.menu__link:hover, .select{
+    background: darkgreen;
+    color:white;
+}
+.mostrar{
+    left:0;
+}
+.nav{
+    position:static;
+    width: :auto;
+}
+.menu{
+    display: flex;
+}
+.icon-menu{
+    display: none;
+}
+.menu__link{
+    background: none;
+    font-size: 100%;
+}
+.select{
+    color:darkgreen;
+    background: white;
+}
